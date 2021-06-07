@@ -21,7 +21,7 @@ We performed three phases of verification. The phases were modelability, feature
 
 ### Results 
 
-The featurizers used were The Circular Fingerprint, RDkit Descriptors, and MACCSKeys. Each of the featurizers were trained on a different split. The PDBbind dataset split was 5771:1242:1247. The split for the BACE dataset was 1059:227:22. The split for the CATS dataset was 321:69:69. The modelability test showed Pubchem and circular fingerprint featurizers having the highest MODI score. The feature importance analysis ranked the features by importance score with the highest being 0.16. The feature elimination step was performed to reduce noise and reduce over fitting. The best MODI we achieved was 0.61 using the BACE1 dataset. The best R2 from the validation test was 0.74, also using the BACE1 dataset. 
+The featurizers used were The Circular Fingerprint, RDkit Descriptors, and MACCSKeys. Each of the featurizers were trained on a different split. The PDBbind dataset split was 5771:1242:1247. The split for the BACE dataset was 1059:227:227. The split for the CATS dataset was 321:69:69. The modelability test showed Pubchem and circular fingerprint featurizers having the highest MODI score. The feature importance analysis ranked the features by importance score with the highest being 0.16. The feature elimination step was performed to reduce noise and reduce over fitting. The best MODI we achieved was 0.61 using the BACE1 dataset. The best R2 from the validation test was 0.74, also using the BACE1 dataset. 
 
 ### Recommendation and Limitations 
 
